@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9D83C9DD-97F1-4A25-9B52-2461ED57738D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "OrderListViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - c42bbefded9f49a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of SwiftUICoffeeOrderingApp.OrderListViewModel.orders : Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt;"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - eefff4fd3308c3c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.orders.getter : Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt;"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - ea9d38949d7e53dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.orders.setter : Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt;"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "130">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - 5144097d11c54178"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.orders.modify : Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt;"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - 52218997080b75c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.orders.modify : Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - 5f3bb026a3d8967c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.$orders.getter : Combine.Published&lt;Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt;&gt;.Publisher"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - 5f3bb026a3d8967c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.$orders.setter : Combine.Published&lt;Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt;&gt;.Publisher"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - a8f06e59d714c060"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.$orders.modify : Combine.Published&lt;Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt;&gt;.Publisher"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - 193c69a058d18514"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.$orders.modify : Combine.Published&lt;Swift.Array&lt;SwiftUICoffeeOrderingApp.OrderViewModel&gt;&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "2837440D-5513-4A26-8838-11EF40EBDEE8 - e554ebfa90f6230e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.OrderListViewModel.init() -&gt; SwiftUICoffeeOrderingApp.OrderListViewModel"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/ViewModel/OrderListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "89">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1434ED97-3D2A-48C5-B99B-C52CFACE9A20"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUICoffeeOrderingApp/Webservice/Webservice.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getAllOrders(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1434ED97-3D2A-48C5-B99B-C52CFACE9A20 - 6650d80f691891b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUICoffeeOrderingApp.Webservice.getAllOrders(completion: (Swift.Optional&lt;Swift.Array&lt;SwiftUICoffeeOrderingApp.Order&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/Webservice/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "764">
+               </Location>
+               <Location
+                  uuid = "1434ED97-3D2A-48C5-B99B-C52CFACE9A20 - b9126ddb0de543f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SwiftUICoffeeOrderingApp.Webservice.getAllOrders(completion: (Swift.Optional&lt;Swift.Array&lt;SwiftUICoffeeOrderingApp.Order&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SwiftUICoffeeOrderingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanvirgeek/Desktop/SwiftUI/SwiftUICoffeeOrderingApp/SwiftUICoffeeOrderingApp/Webservice/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

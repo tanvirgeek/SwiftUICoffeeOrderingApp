@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB150B582564DA8500164107 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB150B572564DA8500164107 /* CreateOrderResponse.swift */; };
 		EBA0FE3E256357860081F8CE /* SwiftUICoffeeOrderingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FE3D256357860081F8CE /* SwiftUICoffeeOrderingAppApp.swift */; };
 		EBA0FE40256357860081F8CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FE3F256357860081F8CE /* ContentView.swift */; };
 		EBA0FE42256357870081F8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA0FE41256357870081F8CE /* Assets.xcassets */; };
 		EBA0FE45256357870081F8CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA0FE44256357870081F8CE /* Preview Assets.xcassets */; };
+		EBA0FE5125635B270081F8CE /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FE5025635B270081F8CE /* Coffee.swift */; };
+		EBA0FE5525635C830081F8CE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FE5425635C830081F8CE /* Order.swift */; };
+		EBA0FE5925635EE00081F8CE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FE5825635EE00081F8CE /* Webservice.swift */; };
+		EBA125EF2563B4B600097368 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA125EE2563B4B600097368 /* OrderListViewModel.swift */; };
+		EBA125F22563BA3800097368 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA125F12563BA3800097368 /* OrderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB150B572564DA8500164107 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 		EBA0FE3A256357860081F8CE /* SwiftUICoffeeOrderingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICoffeeOrderingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA0FE3D256357860081F8CE /* SwiftUICoffeeOrderingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoffeeOrderingAppApp.swift; sourceTree = "<group>"; };
 		EBA0FE3F256357860081F8CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBA0FE41256357870081F8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBA0FE44256357870081F8CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBA0FE46256357870081F8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA0FE5025635B270081F8CE /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		EBA0FE5425635C830081F8CE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EBA0FE5825635EE00081F8CE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		EBA125EE2563B4B600097368 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		EBA125F12563BA3800097368 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,10 @@
 		EBA0FE3C256357860081F8CE /* SwiftUICoffeeOrderingApp */ = {
 			isa = PBXGroup;
 			children = (
+				EBA0FE5725635E890081F8CE /* Webservice */,
+				EBA0FE4F256357B60081F8CE /* ViewModel */,
+				EBA0FE4E256357AE0081F8CE /* View */,
+				EBA0FE4D2563579E0081F8CE /* Model */,
 				EBA0FE3D256357860081F8CE /* SwiftUICoffeeOrderingAppApp.swift */,
 				EBA0FE3F256357860081F8CE /* ContentView.swift */,
 				EBA0FE41256357870081F8CE /* Assets.xcassets */,
@@ -67,6 +83,40 @@
 				EBA0FE44256357870081F8CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBA0FE4D2563579E0081F8CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0FE5025635B270081F8CE /* Coffee.swift */,
+				EBA0FE5425635C830081F8CE /* Order.swift */,
+				EB150B572564DA8500164107 /* CreateOrderResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBA0FE4E256357AE0081F8CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBA125F12563BA3800097368 /* OrderListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBA0FE4F256357B60081F8CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EBA125EE2563B4B600097368 /* OrderListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EBA0FE5725635E890081F8CE /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0FE5825635EE00081F8CE /* Webservice.swift */,
+			);
+			path = Webservice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +190,12 @@
 			files = (
 				EBA0FE40256357860081F8CE /* ContentView.swift in Sources */,
 				EBA0FE3E256357860081F8CE /* SwiftUICoffeeOrderingAppApp.swift in Sources */,
+				EBA0FE5525635C830081F8CE /* Order.swift in Sources */,
+				EB150B582564DA8500164107 /* CreateOrderResponse.swift in Sources */,
+				EBA125F22563BA3800097368 /* OrderListView.swift in Sources */,
+				EBA125EF2563B4B600097368 /* OrderListViewModel.swift in Sources */,
+				EBA0FE5925635EE00081F8CE /* Webservice.swift in Sources */,
+				EBA0FE5125635B270081F8CE /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
