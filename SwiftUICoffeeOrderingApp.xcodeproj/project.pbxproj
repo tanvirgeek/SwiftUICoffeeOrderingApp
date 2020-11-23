@@ -17,6 +17,10 @@
 		EBA0FE5925635EE00081F8CE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA0FE5825635EE00081F8CE /* Webservice.swift */; };
 		EBA125EF2563B4B600097368 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA125EE2563B4B600097368 /* OrderListViewModel.swift */; };
 		EBA125F22563BA3800097368 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA125F12563BA3800097368 /* OrderListView.swift */; };
+		EBD6CA72256B78770078FFFD /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6CA71256B78770078FFFD /* AddCoffeeOrderViewModel.swift */; };
+		EBD6CA75256B7AD40078FFFD /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6CA74256B7AD40078FFFD /* CoffeeViewModel.swift */; };
+		EBD6CA78256B87DB0078FFFD /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6CA77256B87DB0078FFFD /* AddCoffeeOrderView.swift */; };
+		EBD6CA7B256B8AE20078FFFD /* CoffeeCellSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6CA7A256B8AE20078FFFD /* CoffeeCellSubView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		EBA0FE5825635EE00081F8CE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		EBA125EE2563B4B600097368 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		EBA125F12563BA3800097368 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		EBD6CA71256B78770078FFFD /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		EBD6CA74256B7AD40078FFFD /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		EBD6CA77256B87DB0078FFFD /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
+		EBD6CA7A256B8AE20078FFFD /* CoffeeCellSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCellSubView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				EBA125F12563BA3800097368 /* OrderListView.swift */,
+				EBD6CA77256B87DB0078FFFD /* AddCoffeeOrderView.swift */,
+				EBD6CA7A256B8AE20078FFFD /* CoffeeCellSubView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -107,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				EBA125EE2563B4B600097368 /* OrderListViewModel.swift */,
+				EBD6CA71256B78770078FFFD /* AddCoffeeOrderViewModel.swift */,
+				EBD6CA74256B7AD40078FFFD /* CoffeeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -189,12 +201,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBA0FE40256357860081F8CE /* ContentView.swift in Sources */,
+				EBD6CA78256B87DB0078FFFD /* AddCoffeeOrderView.swift in Sources */,
 				EBA0FE3E256357860081F8CE /* SwiftUICoffeeOrderingAppApp.swift in Sources */,
+				EBD6CA7B256B8AE20078FFFD /* CoffeeCellSubView.swift in Sources */,
+				EBD6CA75256B7AD40078FFFD /* CoffeeViewModel.swift in Sources */,
 				EBA0FE5525635C830081F8CE /* Order.swift in Sources */,
 				EB150B582564DA8500164107 /* CreateOrderResponse.swift in Sources */,
 				EBA125F22563BA3800097368 /* OrderListView.swift in Sources */,
 				EBA125EF2563B4B600097368 /* OrderListViewModel.swift in Sources */,
 				EBA0FE5925635EE00081F8CE /* Webservice.swift in Sources */,
+				EBD6CA72256B78770078FFFD /* AddCoffeeOrderViewModel.swift in Sources */,
 				EBA0FE5125635B270081F8CE /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
